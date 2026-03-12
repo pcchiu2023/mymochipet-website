@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochi Pet — Your AI Friend That Learns & Grows</title>
+    <meta name="description" content="Mochi Pet is a virtual companion powered by on-device AI. No internet needed, no ads, no data collection. Just a tiny friend that remembers you.">
+    <meta name="keywords" content="virtual pet, AI pet, tamagotchi, mochi pet, iOS app, on-device AI, virtual companion, digital pet">
+    <meta property="og:title" content="Mochi Pet — Your AI Friend That Learns & Grows">
+    <meta property="og:description" content="A virtual companion powered by on-device AI. Private. Personal. Yours.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mymochipet.com">
+    <meta property="og:image" content="https://mymochipet.com/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://mymochipet.com">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- Floating mochi blobs background -->
+    <div class="blob-canvas" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+        <div class="blob blob-5"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <span class="logo-mochi">mochi</span><span class="logo-pet">pet</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#privacy">Privacy</a>
+                <a href="/support.html">Support</a>
+                <a href="#download" class="nav-cta">Get Mochi</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                100% On-Device AI
+            </div>
+            <h1 class="hero-title">
+                A tiny friend that
+                <span class="hero-highlight">remembers</span> you
+            </h1>
+            <p class="hero-subtitle">
+                Mochi Pet is a virtual companion powered by AI that lives entirely on your phone.
+                No internet. No ads. No data collection. Just a little friend that learns your name,
+                remembers your conversations, and grows a unique personality over time.
+            </p>
+            <div class="hero-actions">
+                <a href="#download" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                    Download for iOS
+                </a>
+                <a href="#features" class="btn btn-ghost">See what Mochi can do</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Private by design
+                </div>
+                <div class="trust-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    Zero ads, ever
+                </div>
+                <div class="trust-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                    Works offline
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="phone-mockup">
+                <div class="phone-notch"></div>
+                <div class="phone-screen">
+                    <div class="mock-status-bar">
+                        <span>9:41</span>
+                        <span class="mock-icons">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/></svg>
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="17" y="4" width="5" height="16" rx="1"/><rect x="11" y="7" width="5" height="13" rx="1"/><rect x="5" y="11" width="5" height="9" rx="1"/></svg>
+                        </span>
+                    </div>
+                    <div class="mock-app">
+                        <div class="mock-stats">
+                            <div class="mock-stat"><span class="stat-icon">&#x1F355;</span><div class="stat-bar"><div class="stat-fill" style="width:85%"></div></div></div>
+                            <div class="mock-stat"><span class="stat-icon">&#x1F60A;</span><div class="stat-bar"><div class="stat-fill happy" style="width:92%"></div></div></div>
+                            <div class="mock-stat"><span class="stat-icon">&#x26A1;</span><div class="stat-bar"><div class="stat-fill energy" style="width:70%"></div></div></div>
+                        </div>
+                        <div class="mock-doll">
+                            <div class="doll-face">
+                                <div class="doll-eyes">
+                                    <div class="doll-eye left">
+                                        <div class="eye-shine"></div>
+                                    </div>
+                                    <div class="doll-eye right">
+                                        <div class="eye-shine"></div>
+                                    </div>
+                                </div>
+                                <div class="doll-mouth"></div>
+                                <div class="doll-blush left"></div>
+                                <div class="doll-blush right"></div>
+                            </div>
+                        </div>
+                        <div class="mock-chat">
+                            <div class="chat-bubble doll-bubble appear-1">Hi! I missed you! &#x1F60A;</div>
+                            <div class="chat-bubble user-bubble appear-2">Hey Mochi! How are you?</div>
+                            <div class="chat-bubble doll-bubble appear-3">Super happy now! Let's play!</div>
+                        </div>
+                        <div class="mock-actions">
+                            <div class="mock-action-btn"><span>&#x1F374;</span> Feed</div>
+                            <div class="mock-action-btn"><span>&#x1F3AE;</span> Play</div>
+                            <div class="mock-action-btn"><span>&#x1F45C;</span> Items</div>
+                            <div class="mock-action-btn"><span>&#x1F6D2;</span> Shop</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-sparkles" aria-hidden="true">
+                <div class="sparkle s1">&#x2728;</div>
+                <div class="sparkle s2">&#x1F496;</div>
+                <div class="sparkle s3">&#x2B50;</div>
+                <div class="sparkle s4">&#x1F31F;</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="section-inner">
+            <div class="section-header">
+                <h2 class="section-title">What makes Mochi special</h2>
+                <p class="section-subtitle">Not just another virtual pet. Mochi is powered by real AI that runs entirely on your iPhone.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card card-ai">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22l-.75-12.07A4.001 4.001 0 0 1 12 2z"/><circle cx="12" cy="6" r="1.5" fill="currentColor" stroke="none"/></svg>
+                    </div>
+                    <h3>Real AI Personality</h3>
+                    <p>Mochi doesn't follow scripts. A language model running on your device generates unique responses based on mood, memories, and personality traits that evolve over time.</p>
+                </div>
+                <div class="feature-card card-privacy">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+                    </div>
+                    <h3>Truly Private</h3>
+                    <p>Everything stays on your phone. No servers. No cloud. No data collection. Your conversations with Mochi are between you and Mochi — forever.</p>
+                </div>
+                <div class="feature-card card-offline">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="3"/><circle cx="12" cy="18" r="1"/><path d="M9 6h6"/></svg>
+                    </div>
+                    <h3>Works Offline</h3>
+                    <p>On a plane. In the subway. At camp. Mochi is always there because the AI lives on your device, not in the cloud.</p>
+                </div>
+                <div class="feature-card card-grow">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c-4 0-8-2-8-8 0-4 2-7 5-10l3 3 3-3c3 3 5 6 5 10 0 6-4 8-8 8z"/><path d="M12 22v-6"/><path d="M9 17l3-3 3 3"/></svg>
+                    </div>
+                    <h3>Grows With You</h3>
+                    <p>Feed, play, talk, dress up. Mochi develops personality traits based on how you care for it. Neglect it and it gets dramatic. Love it and watch it bloom.</p>
+                </div>
+                <div class="feature-card card-dress">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L9 7H4l3 5-3 5h5l3 5 3-5h5l-3-5 3-5h-5L12 2z"/></svg>
+                    </div>
+                    <h3>Dress & Customize</h3>
+                    <p>Hats, scarves, star glasses, backgrounds — collect outfits and accessories from the shop. Make your Mochi uniquely yours.</p>
+                </div>
+                <div class="feature-card card-free">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9" stroke-width="3"/><line x1="15" y1="9" x2="15.01" y2="9" stroke-width="3"/></svg>
+                    </div>
+                    <h3>Free to Play</h3>
+                    <p>The full Mochi experience is free. Optional Best Friend pass ($2.99/mo) and cosmetic items support development. No pay-to-win. No ads. Ever.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how-it-works">
+        <div class="section-inner">
+            <div class="section-header">
+                <h2 class="section-title">How Mochi works</h2>
+                <p class="section-subtitle">Three steps. Thirty seconds. A friend for life.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Name your Mochi</h3>
+                        <p>Give your new friend a name. It's the first thing they'll remember about you.</p>
+                    </div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Talk, feed, play</h3>
+                        <p>Chat naturally, feed treats, play games. Every interaction shapes Mochi's personality and mood.</p>
+                    </div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Watch them grow</h3>
+                        <p>Mochi develops unique traits. A playful foodie? A curious cuddlebug? It depends on you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section class="privacy-section" id="privacy">
+        <div class="section-inner">
+            <div class="privacy-card">
+                <div class="privacy-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <h2>Your privacy is not a feature.<br>It's the foundation.</h2>
+                <p>Most AI apps send your data to servers. Mochi doesn't have servers. The AI model runs entirely on your iPhone's Neural Engine. Your conversations, your pet's personality, your data — it never leaves your device. Not even we can see it.</p>
+                <a href="/privacy.html" class="privacy-link">Read our full Privacy Policy &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section class="download-section" id="download">
+        <div class="section-inner">
+            <div class="download-mochi">
+                <div class="cta-doll">
+                    <div class="doll-face large">
+                        <div class="doll-eyes">
+                            <div class="doll-eye left"><div class="eye-shine"></div></div>
+                            <div class="doll-eye right"><div class="eye-shine"></div></div>
+                        </div>
+                        <div class="doll-mouth wide"></div>
+                        <div class="doll-blush left"></div>
+                        <div class="doll-blush right"></div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="download-title">Ready to meet your Mochi?</h2>
+            <p class="download-subtitle">Free on the App Store. No account needed.</p>
+            <a href="#" class="app-store-badge" aria-label="Download on the App Store">
+                <svg width="200" height="60" viewBox="0 0 200 60" fill="none">
+                    <rect width="200" height="60" rx="10" fill="#000"/>
+                    <text x="72" y="20" fill="#fff" font-family="Quicksand, sans-serif" font-size="10" font-weight="400">Download on the</text>
+                    <text x="72" y="40" fill="#fff" font-family="Nunito, sans-serif" font-size="20" font-weight="700">App Store</text>
+                    <g transform="translate(20, 10)" fill="#fff">
+                        <path d="M32.5 27.2c-.05-5.3 4.33-7.87 4.53-8a9.82 9.82 0 0 0-7.74-4.18c-3.26-.34-6.42 1.95-8.08 1.95-1.69 0-4.25-1.92-7.01-1.86a10.33 10.33 0 0 0-8.7 5.3c-3.76 6.5-0.96 16.06 2.65 21.32 1.8 2.58 3.91 5.46 6.68 5.36 2.7-.11 3.71-1.72 6.97-1.72 3.24 0 4.17 1.72 6.99 1.66 2.9-.05 4.72-2.59 6.47-5.18a21.42 21.42 0 0 0 2.95-6.03 9.38 9.38 0 0 1-5.71-8.62zM27.15 11.75A9.56 9.56 0 0 0 29.34 5a9.73 9.73 0 0 0-6.3 3.26 9.1 9.1 0 0 0-2.26 6.6 8.06 8.06 0 0 0 6.37-3.1z" transform="scale(0.55)"/>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-mochi">mochi</span><span class="logo-pet">pet</span>
+                <p class="footer-tagline">A tiny friend that remembers you.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>App</h4>
+                    <a href="#features">Features</a>
+                    <a href="#download">Download</a>
+                    <a href="/support.html">Support</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="/privacy.html">Privacy Policy</a>
+                    <a href="/terms.html">Terms of Service</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="mailto:support@mymochipet.com">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Mochi Pet. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Mochi Pet</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="blob-canvas" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="nav scrolled">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">
+                <span class="logo-mochi">mochi</span><span class="logo-pet">pet</span>
+            </a>
+            <div class="nav-links">
+                <a href="/#features">Features</a>
+                <a href="/support.html">Support</a>
+                <a href="/#download" class="nav-cta">Get Mochi</a>
+            </div>
+        </div>
+    </nav>
+
+    <main style="position:relative;z-index:1;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;">
+        <div>
+            <div style="margin-bottom:24px;">
+                <div class="doll-face large" style="margin:0 auto;">
+                    <div class="doll-eyes">
+                        <div class="doll-eye left" style="transform:rotate(45deg)"><div class="eye-shine"></div></div>
+                        <div class="doll-eye right" style="transform:rotate(-45deg)"><div class="eye-shine"></div></div>
+                    </div>
+                    <div class="doll-mouth"></div>
+                    <div class="doll-blush left"></div>
+                    <div class="doll-blush right"></div>
+                </div>
+            </div>
+            <h1 style="font-family:Nunito,sans-serif;font-size:4rem;font-weight:900;color:var(--pink);margin-bottom:8px;">404</h1>
+            <p style="font-family:Nunito,sans-serif;font-size:1.3rem;font-weight:700;margin-bottom:8px;">Mochi can't find that page!</p>
+            <p style="color:var(--text-light);margin-bottom:32px;">It might have wandered off somewhere...</p>
+            <a href="/" class="btn btn-primary">Take me home</a>
+        </div>
+    </main>
+</body>
+</html>
